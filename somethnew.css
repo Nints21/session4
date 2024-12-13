@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: brown;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    
+    
+
+
+}
+table{
+    border-collapse: collapse;
+    background-color: #F5F5F5;
+    width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;   
+    border: #E1CFFF;
+    border-radius: 15px;
+    border-bottom: cornflowerblue;
+ 
+}
+
+tr{
+    border-bottom: 2px solid #E1CFFF;
+    height: 100px;;
+
+    
+}
+
+.row-wrapper:hover{
+    background-color: #E1CFFF;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #a05805;
+}
+table thead tr{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: 600;
+    font height: 500;
+}
